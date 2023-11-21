@@ -32,8 +32,8 @@ Certainly! Below is a basic README template for your project. Feel free to custo
 1. Clone the repository.
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/IamSudhir-Kumar/Interactive-Dashboard.git
+   cd Interactive-Dashboard
    ```
 
 2. Install dependencies.
