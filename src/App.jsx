@@ -1,35 +1,11 @@
-// App.js
-import React, { useState, useEffect } from 'react';
-import authService from './AuthService';
+import React from 'react'
 
-function App() {
-  const [user, setUser] = useState(null);
-
-  useEffect(() => {
-    const unsubscribe = authService.onAuthStateChanged((user) => {
-      setUser(user);
-    });
-
-    return () => unsubscribe();
-  }, []);
-
-  // ... (the rest of your component)
-
+const App = () => {
   return (
-    <div>
-      {user ? (
-        <div>
-          <p>Welcome, {user.email}!</p>
-          <button onClick={handleSignOut}>Sign Out</button>
-        </div>
-      ) : (
-        <div>
-          <button onClick={handleSignUp}>Sign Up</button>
-          <button onClick={handleSignIn}>Sign In</button>
-        </div>
-      )}
-    </div>
-  );
+    <h1>
+hello
+    </h1>
+  )
 }
 
-export default App;
+export default App
