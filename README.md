@@ -1,91 +1,34 @@
-Certainly! Below is a basic README template for your project. Feel free to customize it based on the specifics of your project. Remember to update placeholders like `[Your Project Name]`, `[Description]`, `[Installation]`, `[Usage]`, and `[License]` with the relevant information.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-```markdown
-# [Your Project Name]
+## Getting Started
 
-[Description of your project.]
+First, run the development server:
 
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Integration and Data Pipeline](#api-integration-and-data-pipeline)
-- [Cookie Management](#cookie-management)
-- [Responsiveness](#responsiveness)
-- [User Authentication](#user-authentication)
-- [URL Sharing](#url-sharing)
-- [License](#license)
-
-## Features
-
-- Interactive Data Visualization with bar and line charts.
-- Advanced Filtering options for age and gender.
-- Date range selector for analytics data.
-- Cookie management system to store user preferences.
-- Responsive design for various devices.
-- User authentication with sign-up, login, and logout.
-- URL sharing for sharing chart settings.
-
-## Installation
-
-1. Clone the repository.
-
-   ```bash
-   git clone https://github.com/IamSudhir-Kumar/Interactive-Dashboard.git
-   cd Interactive-Dashboard
-   ```
-
-2. Install dependencies.
-
-   ```bash
-   npm install
-   ```
-
-3. Start the frontend and backend servers.
-
-   ```bash
-   npm start
-   ```
-
-   Ensure both servers are running.
-
-## Usage
-
-1. Open your web browser and go to `http://localhost:3000` to access the frontend.
-2. Sign up or log in to access the features.
-3. Explore the interactive data visualization, apply filters, and view analytics data.
-
-## API Integration and Data Pipeline
-
-- The backend is implemented using Node.js with Express.
-- API endpoints are defined in `server.js` for fetching data.
-- Data is imported from a provided dataset using a simple data pipeline.
-
-## Cookie Management
-
-- User preferences for filters and date range are stored in cookies.
-- Preferences are applied when users revisit the page.
-- Users have the option to reset or clear their preferences.
-
-## Responsiveness
-
-- The frontend application is designed to be responsive and work seamlessly on various devices, including desktops, tablets, and mobiles.
-
-## User Authentication
-
-- Basic user authentication is implemented using JWT (JSON Web Tokens).
-- Users can sign up, log in, and log out to access the features.
-
-## URL Sharing
-
-- Users can share a chart created with date range and filters via a URL.
-- The second user needs to log in to view the chart due to data confidentiality.
-
-## License
-
-[Specify your project's license. For example, MIT License.]
-
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-Replace `[Your Project Name]`, `[Description]`, `[Installation]`, `[Usage]`, and `[License]` with the appropriate information for your project. Add additional sections or details as needed.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
